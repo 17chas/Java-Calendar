@@ -14,9 +14,9 @@ public class Calendar {
 		int first = Integer.parseInt(splitedValue[0]);
 		int second = Integer.parseInt(splitedValue[1]);
 		
-		int sum = first + second;
+		//int sum = first + second;
 		
-		System.out.println("두 수의 합은 "+ sum +"입니다");
+		System.out.println("두 수의 합은 "+ (first+second) +"입니다");
 	}
 
 }
